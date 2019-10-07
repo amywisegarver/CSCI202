@@ -1,0 +1,130 @@
+header {
+
+background-color:lightblue;
+padding: 1px;
+font-family: "Arial";
+font-size: 15pt;
+
+
+}
+
+h1 {
+
+color: white;
+
+}
+
+h2 {
+
+padding: 10px;
+font-family: "Arial";
+font-size: 15pt;
+color: white;
+position: relative;
+z-index: 2;
+
+
+}
+
+body {
+
+background-color:lightpink;
+
+}
+
+wrap {
+
+text-align: center;
+}
+
+nav{
+
+font-family: "Arial";
+color: white;
+text-align: center;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+li {
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: center;
+}
+
+li a:hover {
+  background-color: lightpink;
+  text-align: center;
+}
+
+nav li a {
+
+text-align: center;
+
+}
+
+iframe {
+
+padding: 15px;
+float: center;
+
+
+}
+
+p {
+
+font-family: Arial;
+font-size: 12pt;
+margin: 50px 275px;
+color: white;
+
+}
+
+h5 {
+
+font-family: Arial;
+font-size: 12pt;
+margin: 50px 275px;
+color: white;
+
+}
+
+img {
+
+padding: 15px;
+
+}
+
+mainRunner {
+  border: 1px solid #000;
+  position: relative;
+}
+
+.iframe {
+  border: 1px solid #f00;
+  position: relative;
+  z-index: 2;
+}
+
+
+.backround2 {
+  border: 1px solid #f00;
+  position: relative;
+  z-index: 2;
+}
