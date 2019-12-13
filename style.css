@@ -1,125 +1,23 @@
-/* Grid */
-.grid-container {
-    margin: 3rem 4rem;
-    padding: 5rem 0;
-    background-color: LightGray;
-    height: 700px;
-    width: 600px;
-    border: 1px solid rgb(90, 90, 90);
-    border-radius: 4px;
-    
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px 100px;
-    grid-row-gap: 100px;
-    justify-items: center;
-}
-
+23 lines (14 sloc)  303 Bytes
+  
 body {
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	height: 100px;
-	background-color: Gray;
-	font-family: serif;
+    
+  background-color: white; 
+    
+  background-image: url("");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+     
 }
 
-/* Boxes */
-.box1 {
-    width: 70px;
-    height: 70px;
-    background-color: Yellow;
-    transform: rotate(55deg);
-    grid-column: 3 / span 2;
-    grid-row: third-line / 1;
-}
+#txt {
 
-.box2 {
-    width: 60px;
-    height: 5px;
-    background-color: Gray;
-    transform: rotate(0deg);
-    grid-column: 5 / span 2;
-    grid-row: third-line / 1;
-}
-
-.box3 {
-    width: 60px;
-    height: 5px;
-    background-color: Gray;
-    transform: rotate(55deg);
-    grid-column: 1 / span 2;
-    grid-row: third-line / 1;
-}
-
-.box4 {
-    width: 60px;
-    height: 60px;
-    background-color: Blue;
-    transform: rotate(55deg);
-    grid-column: 4 / span 2;
-    grid-row: third-line / 2;
-}
-
-.box5 {
-    width: 60px;
-    height: 60px;
-    background-color: Blue;
-    transform: rotate(55deg);
-    grid-column: 2 / span 2;
-    grid-row: third-line / 3;
-}
-
-.box6 {
-    width: 60px;
-    height: 60px;
-    background-color: Red;
-    transform: rotate(0deg);
-    grid-column: 4 / span 1;
-    grid-row: third-line / 4;
-}
-
-.box7 {
-    width: 60px;
-    height: 5px;
-    background-color: Gray;
-    transform: rotate(55deg);
-    grid-column: 3 / span 3;
-    grid-row: second-line / 3;
-}
-
-.box8 {
-    width: 60px;
-    height: 5px;
-    background-color: Gray;
-    transform: rotate(0deg);
-    grid-column: 1 / span 2;
-    grid-row: third-line / 4;
-}
-
-.box9 {
-    width: 60px;
-    height: 5px;
-    background-color: Gray;
-    transform: rotate(55deg);
-    grid-column: 4 / span 5;
-    grid-row: third-line / 4;
-}
-
-.box10 {
-    width: 30px;
-    height: 60px;
-    background-color: Red;
-    transform: rotate(55deg);
-    grid-column: 2 / span 2;
-    grid-row: third-line / 2;
-}
-
-.box11 {
-    width: 30px;
-    height: 60px;
-    background-color: Yellow;
-    transform: rotate(55deg);
-    grid-column: 4 / span 2;
-    grid-row: third-line / 3;
-}
+    font-size: 300px;
+    text-align: center;
+    color: black;
+      } 
