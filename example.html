@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+p {font-size: 120px;
+text-align: center;
+}    
+</style>
+
+<body>
+
+<p id="narrative"></p>
+
+<script>
+// declaring the variable storyworld, with json object of characters 
+var storyworld = '{"characters":[' +
+'{"name":"Jerrica","cannot stop thinking about":"more money", "mood":"worried"},' +
+'{"name":"Janessica","cannot stop thinking about":"directions to the bathroom", "mood":"like she needs to pee" },' +
+    
+'{"name":"Heleneth","cannot stop thinking about":"true love", "mood":"lonely" },' +
+    
+'{"name":"Courtneigh","cannot stop thinking about":"a new iphone", "mood":"greedy" },' +
+    
+'{"name":"ChadBradley","cannot stop thinking about":"ride to the airport", "mood":"excited" },' +
+'{"name":"Johnalathxyn","cannot stop thinking about":"his hangover to end", "mood":"greedy"}]}';
+// declaring the variable story, with a random value of 0 - 5
+var story = Math.floor(Math.random() * 5);
+    
+obj = JSON.parse(storyworld);
+document.getElementById("narrative").innerHTML =
+obj.characters[story].name + " is feeling " + obj.characters[story].mood + ", and cannot stop thinking about " + obj.characters[story].wants + ".";
+</script>
+
+</body>
+</html>
